@@ -29,8 +29,6 @@ public class Butons extends JButton{
 			@Override
 			public void actionPerformed(ActionEvent e) {
 
-				setTextfieldColor();
-
 				MatrixData data = new MatrixData(MatrixTextField.getMatrixTextField());
 
 				DataProcessing dp = new DataProcessing(data.getMatrix());
@@ -68,16 +66,4 @@ public class Butons extends JButton{
 		}
 	}
 
-	private void setTextfieldColor(){
-		for (int i = 0; i < 9; i ++){
-			for (int j = 0; j < 9; j++){
-				try {
-					Integer.parseInt(MatrixTextField.jt[i][j].getText());
-				}catch (Exception ex){
-					MatrixTextField.jt[i][j].setBackground(Color.getColor(""));
-
-				}
-			}
-		}
-	}
 }

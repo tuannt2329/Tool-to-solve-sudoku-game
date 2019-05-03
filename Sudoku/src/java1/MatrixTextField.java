@@ -5,6 +5,7 @@ import java.awt.*;
 
 public class MatrixTextField extends JTextField {
     public static MatrixTextField[][] jt;
+
     public MatrixTextField(){
         super("",CENTER);
         this.setBorder(BorderFactory.createLineBorder(Color.GRAY));
@@ -36,8 +37,4 @@ public class MatrixTextField extends JTextField {
         }
         return matrix;
     }
-
-
-
-
 }
