@@ -7,9 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bd0ef62-9074-4dff-8d2b-827d0286a04a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java1/DataProcessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java1/DataProcessing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java1/MatrixTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java1/MatrixTextField.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,15 +46,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java1/MatrixPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="121">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java1/DataProcessing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
               <folding>
-                <element signature="method#MatrixPanel#0;class#MatrixPanel#0" />
-                <element signature="method#CreateMatrixPanel#0;class#MatrixPanel#0" />
-                <element signature="method#addTextField#0;class#MatrixPanel#0" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="method#CheckRowCol#0;class#DataProcessing#0" />
+                <element signature="method#findCell0#0;class#DataProcessing#0" />
+                <element signature="method#Solve#0;class#DataProcessing#0" />
+                <element signature="e#2443#2444#0" expanded="true" />
+                <element signature="e#2475#2476#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,10 +85,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java1/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="87">
+              <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java1/MatrixTextField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java1/MatrixData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+              <folding>
+                <element signature="method#convertString2Int#0;class#MatrixData#0" />
+                <element signature="method#convertInt2String#0;class#MatrixData#0" />
               </folding>
             </state>
           </provider>
@@ -117,14 +152,14 @@
         <option value="$PROJECT_DIR$/src/java1/dataprocessing.java" />
         <option value="$PROJECT_DIR$/src/java1/ButonPanel.java" />
         <option value="$PROJECT_DIR$/src/java1/EASTPanel.java" />
-        <option value="$PROJECT_DIR$/src/java1/DataProcessing.java" />
-        <option value="$PROJECT_DIR$/src/java1/MatrixTextField.java" />
         <option value="$PROJECT_DIR$/src/java1/Butons.java" />
-        <option value="$PROJECT_DIR$/src/java1/MatrixPanel.java" />
         <option value="$PROJECT_DIR$/src/java1/MatrixData.java" />
         <option value="$PROJECT_DIR$/src/java1/main.java" />
         <option value="$PROJECT_DIR$/src/java1/Labels.java" />
         <option value="$PROJECT_DIR$/src/java1/JframeSudoku.java" />
+        <option value="$PROJECT_DIR$/src/java1/MatrixPanel.java" />
+        <option value="$PROJECT_DIR$/src/java1/DataProcessing.java" />
+        <option value="$PROJECT_DIR$/src/java1/MatrixTextField.java" />
       </list>
     </option>
   </component>
@@ -139,7 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,6 +201,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -296,26 +331,27 @@
       <workItem from="1540967326871" duration="51000" />
       <workItem from="1540991636392" duration="4448000" />
       <workItem from="1556611017552" duration="833000" />
+      <workItem from="1556869701711" duration="2174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79140000" />
+    <option name="totallyTimeSpent" value="81314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19667171" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19969743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294509" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32405892" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32405892" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39836067" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,8 +360,8 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3295082" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -335,6 +371,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" weight="0.51805335" />
@@ -377,32 +414,6 @@
     <entry file="file://$PROJECT_DIR$/src/java/JframeSudoku.java" />
     <entry file="file://$PROJECT_DIR$/src/java/MatrixPanel.java" />
     <entry file="file://$PROJECT_DIR$/src/java1/xulydulieu.java" />
-    <entry file="file://$PROJECT_DIR$/src/java1/MatrixData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding>
-            <element signature="method#convertString2Int#0;class#MatrixData#0" />
-            <element signature="method#convertInt2String#0;class#MatrixData#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java1/DataProcessing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-          <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="method#CheckRowCol#0;class#DataProcessing#0" />
-            <element signature="method#CkeckCoincideNumber#0;class#DataProcessing#0" />
-            <element signature="method#findCell0#0;class#DataProcessing#0" />
-            <element signature="method#Solve#0;class#DataProcessing#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java1/Butons.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -417,16 +428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java1/MatrixTextField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-          <folding>
-            <element signature="method#getMatrixTextField#0;class#MatrixTextField#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java1/Labels.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -437,20 +438,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/java1/DataProcessing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+          <folding>
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="method#CheckRowCol#0;class#DataProcessing#0" />
+            <element signature="method#findCell0#0;class#DataProcessing#0" />
+            <element signature="method#Solve#0;class#DataProcessing#0" />
+            <element signature="e#2443#2444#0" expanded="true" />
+            <element signature="e#2475#2476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java1/JframeSudoku.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java1/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -466,13 +473,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java1/MatrixPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="121">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java1/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
           <folding>
-            <element signature="method#MatrixPanel#0;class#MatrixPanel#0" />
-            <element signature="method#CreateMatrixPanel#0;class#MatrixPanel#0" />
-            <element signature="method#addTextField#0;class#MatrixPanel#0" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java1/MatrixData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding>
+            <element signature="method#convertString2Int#0;class#MatrixData#0" />
+            <element signature="method#convertInt2String#0;class#MatrixData#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java1/MatrixTextField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
         </state>
       </provider>
     </entry>

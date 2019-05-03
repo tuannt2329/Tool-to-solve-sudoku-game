@@ -29,6 +29,9 @@ public class MatrixTextField extends JTextField {
                 if(!jt[i][j].getText().isEmpty()){
                     jt[i][j].setForeground(Color.RED);
                 }
+                else {
+                    jt[i][j].setForeground(Color.BLACK);
+                }
             }
         }
         return matrix;

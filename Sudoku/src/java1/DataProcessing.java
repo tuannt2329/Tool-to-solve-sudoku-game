@@ -25,29 +25,19 @@ public class DataProcessing {
         return 1;
     }
 
-    public boolean CkeckCoincideNumber(int x,int a,int b){
-        for (int i = 0; i < ROW; i++){
-            for (int j = 0; j < COL; j++) {
-             
-                if ( i==a && j==b) {
-                  
-                }else
-                {
+    public boolean CkeckCoincideNumber(int x, int a, int b){
                 	  for (int k = 0; k < ROW; k++)
-                          if (matrixInt[i][k] == x && k != j&&k!=b)
+                          if (matrixInt[a][k] == x && k != b)
                               return true;
                       for (int k = 0; k < COL; k++)
-                          if (matrixInt[k][j] == x && k != i &&k!=a)
+                          if (matrixInt[k][b] == x && k != a)
                               return true;
-                      int crow = i % 3;
-                      int ccol = j % 3;
-                      for (int k = i - crow; k <= i - crow + 2; k++ )
-                          for (int h = j - ccol; h <= j - ccol + 2; h++)
-                              if(matrixInt[k][h] == x && k != i && h != j && k!=1 && h!=b)
+                      int crow = a % 3;
+                      int ccol = b % 3;
+                      for (int k = a - crow; k <= a - crow + 2; k++ )
+                          for (int h = b - ccol; h <= b - ccol + 2; h++)
+                              if(matrixInt[k][h] == x && k != a && h != b && k!=1 && h!=b)
                                   return true;
-                }
-            }
-        }
         return false;
     }
 
