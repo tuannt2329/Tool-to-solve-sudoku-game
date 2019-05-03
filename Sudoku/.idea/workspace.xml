@@ -7,19 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bd0ef62-9074-4dff-8d2b-827d0286a04a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Bao-Cao/BaoCaoDoAn2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Bao-Cao/BaoCaoDoAn2.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bao-Cao/~WRL0005.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sudoku/java1/ButonPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sudoku/java1/Butons$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sudoku/java1/Butons$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sudoku/java1/Butons$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sudoku/java1/Butons$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sudoku/java1/Butons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sudoku/java1/Butons.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Sudoku/java1/DataProcessing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sudoku/java1/DataProcessing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sudoku/java1/MatrixTextField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sudoku/java1/MatrixTextField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1/ButonPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1/Butons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java1/Butons.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java1/DataProcessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java1/DataProcessing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1/MatrixTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java1/MatrixTextField.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java1/MatrixData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
+            <state relative-caret-position="195">
               <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
               <folding>
                 <element signature="method#convertString2Int#0;class#MatrixData#0" />
@@ -60,13 +51,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java1/DataProcessing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-332">
-              <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+            <state relative-caret-position="258">
+              <caret line="38" column="74" selection-start-line="38" selection-start-column="74" selection-end-line="38" selection-end-column="74" />
               <folding>
                 <element signature="e#205#206#0" expanded="true" />
                 <element signature="e#239#240#0" expanded="true" />
                 <element signature="method#CheckRowCol#0;class#DataProcessing#0" />
-                <element signature="method#CkeckCoincideNumber#0;class#DataProcessing#0" />
               </folding>
             </state>
           </provider>
@@ -108,9 +98,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="716" />
+    <option name="y" value="27" />
+    <option name="width" value="650" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -118,6 +109,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,14 +138,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540996081439" />
-    <property name="last_opened_file_path" value="D:/abc/Sudoku" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -276,17 +268,17 @@
       <workItem from="1540991636392" duration="4448000" />
       <workItem from="1556611017552" duration="833000" />
       <workItem from="1556869701711" duration="6478000" />
+      <workItem from="1556892544686" duration="37000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85618000" />
+    <option name="totallyTimeSpent" value="85655000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19969743" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20271349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -295,7 +287,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294509" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32405892" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32396695" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39836067" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -405,13 +397,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java1/ButonPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java1/ButonPanel.java" />
     <entry file="file://$PROJECT_DIR$/src/java1/Butons.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -435,7 +421,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java1/MatrixData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
+        <state relative-caret-position="195">
           <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
           <folding>
             <element signature="method#convertString2Int#0;class#MatrixData#0" />
@@ -446,13 +432,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java1/DataProcessing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-332">
-          <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+        <state relative-caret-position="258">
+          <caret line="38" column="74" selection-start-line="38" selection-start-column="74" selection-end-line="38" selection-end-column="74" />
           <folding>
             <element signature="e#205#206#0" expanded="true" />
             <element signature="e#239#240#0" expanded="true" />
             <element signature="method#CheckRowCol#0;class#DataProcessing#0" />
-            <element signature="method#CkeckCoincideNumber#0;class#DataProcessing#0" />
           </folding>
         </state>
       </provider>

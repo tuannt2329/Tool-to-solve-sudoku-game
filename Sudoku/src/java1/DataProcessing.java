@@ -36,7 +36,7 @@ public class DataProcessing {
                       int ccol = b % 3;
                       for (int k = a - crow; k <= a - crow + 2; k++ )
                           for (int h = b - ccol; h <= b - ccol + 2; h++)
-                              if(matrixInt[k][h] == x && k != a && h != b && k != 1 && h != b)
+                              if(matrixInt[k][h] == x && k != a && h != b)
                                   return true;
         return false;
     }
